@@ -1,0 +1,9 @@
+javac HelloAnonymousWorld.java -d out
+cd out
+java HelloAnonymousWorld
+cd ..
+java efs\onefile\HelloOneFileWorld.java
+javac efs\manyfiles\*.java -d out
+cd out
+java efs.manyfiles.HelloWorld
+
